@@ -1,0 +1,33 @@
+.about_data{
+    display: flex;
+    flex-direction: column;
+}
+.species-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+}
+.spec-txt{
+    text-transform: capitalize;
+    font-size: large;
+}
+.spec-value{
+    margin-left: 7%;
+    font-size: large;
+    text-transform: capitalize;
+}
+.egg-wrapper{
+    margin-top: -13px;
+}
+.height-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1%;
+}
+.ability-value{
+    margin-left: 6%;
+    font-size: large;
+    text-transform: capitalize;
+}

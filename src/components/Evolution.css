@@ -1,0 +1,11 @@
+.pok-ev-name{
+    margin-top: 10%;
+    margin-left: 45%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+.pok-ev-data{
+    margin-left: 35%;
+    text-transform: capitalize;
+}

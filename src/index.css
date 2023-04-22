@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #FFE4B5;
+}
+.arrows{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  width: 100%;
+}
+.arr-line{
+  margin-left: 2%;
+}
+i {
+  font-size: large;
+  font-weight: bold;
+}
+.arr-bars{
+  margin-left: 90%;
+}
+.pokepage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+.card{
+  width: 195px;
+  height: 170px;
+  background-color: rgb(32, 178, 170, 0.7);
+  border: 1px solid rgb(50, 149, 206);
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-content: center;
+  border-radius: 16px;
+  box-shadow: 3px 3px 1px lightblue;
+}
+.title{
+  flex-basis: 100%;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 2%;
+  text-align: center;
+}
+.pokename{
+  margin-left: 3px;
+  margin-bottom: 2px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.pokeimg{
+  height: 90px;
+  width: 90px;
+  border-radius: 48px;
+  border: 1px solid rgba(34, 143, 211, 0.3);
+  margin-left: 54%;
+  background-color: rgb(127, 255, 212, 0.3);
+  margin-top: -30px;
+}
+.pokeimg img{
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.load{
+  margin: auto;
+  margin-top: 10%;
+  color: rgb(125, 117, 238);
+}
+.types{
+  margin-left: 3px;
+  background-color: rgb(127, 255, 212, 0.3);
+  border-radius: 6px;
+  width: 7vh;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  margin-top: 10px;
+  width: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: small;
+}
+.types_1{
+  margin-left: 3px;
+  background-color: rgb(127, 255, 212, 0.3);
+  border-radius: 6px;
+  width: 60px;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: small;
+}
+.page-nav{
+  flex-basis: 100%;
+  align-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+button{
+  background-color: #6495ED;
+  border-radius: 4px;
+}

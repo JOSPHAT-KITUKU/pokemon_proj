@@ -1,0 +1,19 @@
+.moves-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.mov{
+    flex-basis: 33.3%;
+    text-transform: capitalize;
+}
+.mov-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    text-transform: capitalize;
+    color: blueviolet;
+    margin-top: 2%;
+}

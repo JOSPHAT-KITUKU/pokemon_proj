@@ -1,0 +1,111 @@
+.wall{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top{
+    width: 75%;
+    margin: auto;
+    height: 250px;
+    border-radius: 16px;
+    background-color: rgb(42, 151, 165, 0.5);
+    text-align: center;
+    border: 2px solid rgb(211, 211, 211, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+.name-id-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 4%;
+    color: white;
+}
+.id{
+    color: rgb(255, 0, 30);
+    height: 20px;
+    width: 50px;
+    border-radius: 8px;
+    background-color: rgb(127, 255, 212, 0.7);
+    text-align: center;
+}
+.types-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.type1{
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 70px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 127, 80, 0.6);
+    color: white;
+}
+.pok-pokename{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: rgb(127, 255, 212, 0.7);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.type2{
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 70px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 127, 80, 0.6);
+    color: white;
+}
+.poke-pokeimg{
+    margin-top: -80px;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(127, 255, 212, 0.7);
+}
+.btn-pok{
+    margin-left: -80%;
+    margin-top: 1%;
+}
+
+.bottom{
+    height: 300px;
+    margin: auto;
+    width: 75%;
+    border-radius: 16px;
+    margin-top: -30px;
+    background-color: white;
+    border: 2px solid rgb(211, 211, 211, 0.5);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 20px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    font-size:medium;
+    font-weight: bold;
+    font-style: italic;
+}
+Link{
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: underline blue;
+}
+
+.about_data{
+    margin-left: 10%;
+}
